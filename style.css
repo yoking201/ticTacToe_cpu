@@ -1,0 +1,55 @@
+/* //CPU VS Player */
+body {
+  font-family: sans-serif;
+}
+
+#grid {
+  display: inline-grid;
+  background-color:gray;
+  grid-template-columns: 180px 180px 180px;
+  grid-gap: 20px;
+}
+
+#grid div {
+  background-color: white;
+  color:black;
+  width: 180px;
+  height:180px;
+  text-align: center;
+  font-size: 10em;
+}
+.status-bar{
+  text-align: center;
+  
+  font-family: ;
+  font-size: 26px;
+background-color: whitesmoke;
+max-width: 600px;
+}
+
+.status-bar button{
+  border:1px solid black;
+  background-color: white;
+  color:black;
+cursor: pointer;
+padding:10px;
+transition-duration:0.4s;
+
+}
+.status-bar button:hover{
+  border:1px solid white;
+  background-color: black;
+  
+  color:white;
+}
+#grid div:hover{
+  background-color:black;
+  cursor:pointer;
+  color:white;
+
+}
+
+#grid div img {
+  width: 100%;
+  height: 100%
+}
